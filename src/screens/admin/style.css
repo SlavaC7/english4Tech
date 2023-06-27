@@ -1,0 +1,523 @@
+.appAdmin {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.nav {
+  width: 10%;
+  background-color: #282c34;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.wrapperAdmin {
+  width: 90%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.wrapperAdminAdd {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  width: 100%;
+  height: 70px;
+  background-color: #393e47;
+  color: white;
+  font-size: 26pt;
+  font-weight: 700;
+}
+.contentAndmin {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contentAndminCh {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.welcome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.welcomeTitle {
+  font-size: 80pt;
+  color: #1e90ff;
+}
+.welcomeTitle2 {
+  font-size: 40pt;
+  color: black;
+}
+.welcomeV {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  width: 100%;
+}
+.welcomeDesc {
+  color: gray;
+}
+
+.welcomeUL > li {
+  text-decoration: none;
+}
+
+.changeBlock {
+  width: 80%;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  margin: 20px;
+}
+
+.fileButton {
+  padding: 5px;
+  border: 3px solid black;
+  background-color: white;
+  font-size: 12pt;
+  color: black;
+  margin-top: 15px;
+}
+.fileButton:hover {
+  transition: 0.3s;
+  background-color: #146dc7;
+}
+
+.fileBlock {
+  padding: 10px;
+  display: flex;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  width: max-content;
+  margin-top: 10px;
+}
+.fileBlockInc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.fileIcon {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+}
+.optionsAdmin {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+.exampleAdmin {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+.exampleTitle {
+  margin: 10px;
+  min-height: 15px;
+}
+.exampleLinkBlock {
+  display: block;
+  flex-direction: column;
+}
+.exampleLink {
+  font-size: 10pt;
+  color: #0481ff;
+}
+.exampleImage {
+  float: left;
+  margin: 0 10px 10px 0;
+}
+.exampleImageNull{
+  float: left;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  width: 300px;
+  height: 300px;
+  margin: 0 10px 10px 0;
+}
+.exampleVideoNull{
+  float: left;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  width: 300px;
+  height: 200px;
+  margin: 0 10px 10px 0;
+}
+.exampleFileFloat {
+  float: left;
+  margin: 0 10px 10px 0;
+}
+.exampleParagraf {
+  margin-bottom: 20px;
+}
+.contolLink {
+  display: flex;
+  width: 100px;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14pt;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.blockLink {
+  display: flex;
+}
+.controleIcon {
+  width: 20px;
+  height: 20px;
+}
+.blockControl {
+  width: min-content;
+  height: min-content;
+  padding: 3px;
+  border-radius: 5px;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.closeIcon {
+  width: 30px;
+  height: 30px;
+}
+
+.gramarImageBlock {
+  margin: 10px;
+  width: max-content;
+}
+
+.imageIconBlock {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.photoIcon {
+  width: 30px;
+  height: 30px;
+}
+
+.areaText {
+  resize: vertical;
+  width: 100%;
+  height: 50px;
+  min-height: 50px;
+  margin-top: 10px;
+}
+.areaBlock {
+  width: 80%;
+  margin-top: 10px;
+}
+
+.gramarPar {
+  display: flex;
+  flex-direction: column;
+}
+.areaPar {
+  color: gray;
+  font-size: 11pt;
+  margin-bottom: 10px;
+}
+.blockArea {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+.linkElemGroup {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.linkElemBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+
+.blockLinkRevision {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.exampleLinkRevision {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.sendButtonBlock {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+#sendButton {
+  width: 200px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #0481ff;
+  border: 1px solid black;
+  color: white;
+  font-size: 14pt;
+  font-weight: 600;
+}
+
+#sendButton:hover {
+  background-color: #0470db;
+}
+
+/* NavigationAdmin Style */
+
+.navHeader {
+  height: 70px;
+  margin-bottom: 20px;
+  font-size: 40pt;
+  font-weight: 900;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.navList {
+  list-style: none;
+  width: 100%;
+  margin-top: 20px;
+}
+.navList li {
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navList li:hover {
+  background-color: rgb(133, 133, 133);
+}
+
+.adminLink {
+  text-decoration: none;
+  color: white;
+}
+
+.adminLink:visited {
+  color: white;
+}
+
+.descriptionNavAdmin {
+  font-size: 16pt;
+}
+
+/* change Unit Style */
+
+.contentAndminChange {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.publickInfo {
+  margin: 20px;
+  width: 80%;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.changeUnitBlock {
+  margin: 20px;
+  width: 80%;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.changeUnitInfoBlock {
+  width: 60%;
+}
+.changeUnitItem {
+  margin: 20px;
+  width: 80%;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.deletedUnit {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  background-color: gray;
+}
+.unDeletetState {
+  width: 100%;
+}
+.changeUnitItemMain {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  height: 100px;
+}
+
+.changeUnitItemDelete {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+}
+
+.buttonBlock {
+  display: flex;
+}
+.agreeButtonDelete {
+  width: 50px;
+  padding: 10px;
+  margin-left: 20px;
+  transition: 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.agreeButtonDelete:hover {
+  border-radius: 10px;
+  background-color: rgba(0, 179, 0, 0.774);
+  transition: 0.2s;
+}
+.disagreeButtonDelete {
+  width: 50px;
+  padding: 10px;
+  margin-left: 20px;
+  transition: 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.disagreeButtonDelete:hover {
+  border-radius: 10px;
+  background-color:  rgb(0, 179, 0);
+  transition: 0.2s;
+}
+
+.contentUnit {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  margin-top: 20px;
+}
+.contentUnitItem {
+  width: 20%;
+  margin-right: 10%;
+}
+.halfContent {
+  overflow: hidden;
+  position: relative;
+  max-height: 1em;
+  max-width: 100%;
+  text-align: justify;
+  padding-right: 1em;
+  color: gray;
+}
+
+.halfContent:before {
+  content: "...";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.iconEditBlock {
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.iconEditBlock > p {
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.iconEditBlock:hover {
+  background-color: rgb(197, 197, 197);
+  -webkit-animation: swing 0.6s ease;
+  animation: swing 0.6s ease;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
+.editIconChange {
+  width: 35px;
+  margin-right: 5px;
+}
+
+.deleteIconChange {
+  width: 30px;
+  margin-right: 5px;
+}
+
+.iconBlock {
+  display: flex;
+}
+
+.editIconChange:hover {
+  -webkit-animation: swing 0.6s ease;
+  animation: swing 0.6s ease;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
+@keyframes swing {
+  25% {
+    -webkit-transform: translateX(2px);
+    transform: translateX(2px);
+  }
+  50% {
+    -webkit-transform: translateX(-2px);
+    transform: translateX(-2px);
+  }
+  65% {
+    -webkit-transform: translateX(1px);
+    transform: translateX(1px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}

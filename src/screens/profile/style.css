@@ -1,0 +1,91 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+.profileBlock {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  height: 50%;
+}
+.profile {
+  width: 70%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  display: flex;
+  padding: 20px;
+}
+.profileOption {
+  width: 25%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+}
+.profileItem {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+.textItem {
+  font-size: 18pt;
+}
+.constSpan {
+  color: rgb(148, 145, 145);
+  font-size: 12pt;
+}
+.userPhoto {
+  width: 400px;
+  height: 400px;
+  border-radius: 100%;
+  border: 1px solid black;
+  size: cover;
+  margin-right: 20px;
+}
+.groupSelect {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.constLabel {
+  color: rgb(160, 158, 158);
+  font-size: 9pt;
+}
+select {
+  font-size: 12pt;
+  padding: 5px;
+  border: 1px solid black;
+  width: 100%;
+  max-width: 250px;
+  background-color: white;
+}
+
+select:focus {
+  border-color: #0098db;
+}
+
+footer {
+  padding: 20px;
+  background-color: #282c34;
+  color: white;
+}
+
+.buttonSetting {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid black;
+  border-color: white;
+  background-color: #0098db;
+  width: 50%;
+  color: white;
+  box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.5);
+}
+
+.buttonSetting:hover {
+  transition: 0.5s;
+  background-color: #0082b9;
+  box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.5);
+}
+.profileOption:hover:after .buttonSetting {
+  transition: 0.5s;
+  background-color: #0098db;
+  box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.5);
+}

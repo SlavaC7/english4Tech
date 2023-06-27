@@ -1,0 +1,122 @@
+.App {
+  margin: 0;
+  height: 100vh;
+  width: 100%;
+}
+.header {
+  background-color: #282c34;
+  color: white;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.headerElem {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+  height: 100%;
+}
+.content {
+  min-width: 500px;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 20px;
+}
+.mainContent {
+  width: 75%;
+  margin: 10px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.leftSide {
+  width: 20%;
+  height: 100%;
+  margin: 10px;
+}
+.leftAsaid {
+  width: 15%;
+  min-width: 100px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  border: 1px solid gray;
+}
+.contentBlock {
+  width: 100%;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  padding: 15px;
+}
+.contentBlock > p {
+  font-size: 1vw;
+  font-weight: 300;
+  margin-bottom: 20px;
+  text-indent: 20px;
+}
+.contentBlock > h2 {
+  font-weight: 500;
+  color: #696969;
+}
+.description {
+  color: gray;
+  font-size: 1vw;
+  font-weight: 300;
+  
+}
+
+.unitBlock {
+  padding: 5px;
+  border: 1px solid gray;
+}
+.unitBlockActive {
+  padding: 5px;
+  border: 1px solid gray;
+  background-color: #97daf7;
+}
+
+
+.unitBlock:hover {
+  transition: 0.3s;
+  background-color: #0098db;
+  border: 1px solid gray;
+}
+
+.headerLogo {
+  font-size: 2vw;
+  font-weight: 900;
+}
+#profileIcon {
+  width: 50px;
+  height: 50px;
+  color: white;
+  float: right;
+  background-color: rgba(255, 255, 255, 0.562);
+}
+.App-link {
+  color: #61dafb;
+}
+
+.video {
+  float: left;
+  margin-right: 20px;
+}
+.gramarImg {
+  width: 400px;
+  float: left;
+  margin: 10px;
+justify-content: flex-start;
+}
